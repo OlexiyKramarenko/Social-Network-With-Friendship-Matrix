@@ -1,0 +1,70 @@
+﻿#registration{
+    text-align:center;
+    background-color:#ed98d6;
+    padding:8px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+#login{
+    text-align:center;
+    background-color:#b6ff00;
+    padding:8px;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+#select{
+    margin-top:30px;
+}
+.invisible{
+    display:none;
+}
+ 
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-default {
+    border: 1px solid black;
+}
+
+    .navbar-default .navbar-brand {
+        color: #dc1919;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #000;
+    }
+
+.active {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+@media(max-width:2000px) {
+    table tr td img {
+        width: 100px;
+    }
+
+    table tr td :nth-child(1) {
+        width: 100px;
+    }
+
+    table tbody tr td:last-child {
+        font-style: italic;
+    }
+
+    table tbody tr td {
+        font-weight: 800;
+        color: #dc19a7;
+        padding: 10px;
+    }
+}
+@media(max-width:500px) {
+
+    table tbody tr td {
+        font-weight: 500; 
+        padding: 4px; 
+    }
+     
+}
